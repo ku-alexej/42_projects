@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	font-family: 'Segoe UI', sans-serif;
+	background: radial-gradient(ellipse at center, #0a0f1e 0%, #000000 100%);
+	color: #e0f7fa;
+	line-height: 1.6;
+}
+
+header {
+	text-align: center;
+	padding: 60px 20px 30px;
+	background: rgba(255, 255, 255, 0.02);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+header h1 {
+	font-size: 3.5rem;
+	margin-bottom: 10px;
+	color: #00e5ff;
+	text-shadow: 0 0 20px #00e5ff;
+}
+
+header p {
+	font-style: italic;
+	font-size: 1.2rem;
+	color: #81d4fa;
+}
+
+main {
+	max-width: 900px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+.glass {
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	border-radius: 20px;
+	padding: 30px;
+	margin-bottom: 40px;
+	box-shadow: 0 0 40px rgba(0, 229, 255, 0.1);
+	opacity: 0;
+	transform: translateY(30px);
+	transition: all 0.8s ease;
+}
+
+.glass.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+h2 {
+	color: #00bcd4;
+	border-bottom: 1px solid #00bcd4;
+	padding-bottom: 5px;
+	margin-top: 0;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+img {
+	width: 100%;
+	border-radius: 12px;
+	margin: 20px 0;
+	box-shadow: 0 0 15px rgba(0,229,255,0.4);
+}
+
+footer {
+	text-align: center;
+	margin: 60px 20px 30px;
+	font-size: 0.9rem;
+	color: #607d8b;
+}
+
+a {
+	color: #00e5ff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+    
