@@ -5,7 +5,7 @@ Hi! I’m Aleksei, currently studying at 42 Paris since May 2023. This repositor
 - **[ft_transcendence](https://github.com/kaierhyeh/ft_transcendence/tree/4c3d398803bd8af5c2bc0964b2456259dca7cd35)** - a fullstack project. Create online Ping-Pong game. Currently in progress.
 
 # Level 5
-- **[ft_irc](https://github.com/ku-alexej/42_projects/tree/main/05_ft_irc)** A custom IRC server built in C++98, following the official IRC protocol. It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time.
+- **[ft_irc](https://github.com/ku-alexej/42_projects/tree/main/05_ft_irc)** A custom IRC server built in C++98, following the official IRC protocol. It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time. *(group project with [@vecherinca](https://github.com/vecherinca))*
 - **[Inception](https://github.com/ku-alexej/42_projects/tree/main/05_ft_Inception)** A system administration project focused on containerization with Docker Compose. The goal is to build and configure a complete infrastructure inside a virtual machine by writing your own Dockerfiles.
 - **[CPP modules 05-09](https://github.com/ku-alexej/42_projects/tree/main/CPP_modules)** A series of projects designed to progressively introduce and strengthen key C++ concepts. Each module focuses on a specific topic, combining theory with practical exercises to build a solid foundation in modern C++ programming.
 
