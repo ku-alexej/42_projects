@@ -1,15 +1,18 @@
-# ft_irc – Internet Relay Chat Server
+# Push_swap – Stack Sorting Challenge
+A C program designed to sort integers using two stacks and a limited set of operations, aiming for the minimal number of instructions. This project emphasizes algorithmic thinking, optimization, and understanding the complexity of sorting.
 
-A custom IRC server built in C++98, following the official IRC protocol.
-It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time.
+# Features (Mandatory):
+- Sort a list of integers using stacks a and b
+- Supported operations: sa, sb, ss, pa, pb, ra, rb, rr, rra, rrb, rrr
+- Output is the shortest possible sequence of operations to sort stack a in ascending order
+- Handles errors gracefully (invalid input, duplicates, out-of-range integers)
+- No global variables allowed
+- Fully compliant with Norm and memory leak free
 
-# Features:
+# Bonus (Checker Program):
+- Verifies sequences of instructions applied to stacks
+- Displays OK if the stack is correctly sorted, KO otherwise
+- Handles all errors properly
 
-- Multi-client handling with non-blocking I/O and poll()
-- User authentication (nickname & username)
-- Private messaging and public channel communication
-- Channel operators with commands: KICK, INVITE, TOPIC, MODE
-- Basic channel modes: invite-only, topic restrictions, password, operators, user limits
-
-Run:
-`./ircserv <port> <password>`
+# Objective:
+Learn algorithm optimization, stack operations, and develop efficient C code for minimal instruction sorting. Bonus rewards creating your own checker to verify solutions.

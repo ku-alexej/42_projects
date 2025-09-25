@@ -1,15 +1,17 @@
-# ft_irc – Internet Relay Chat Server
+# Minitalk – Client/Server Communication with Signals
+A lightweight messaging program built in C, where a client and server communicate exclusively using UNIX signals (SIGUSR1 and SIGUSR2).
 
-A custom IRC server built in C++98, following the official IRC protocol.
-It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time.
+# Features (Mandatory):
+- Server prints its PID on startup
+- Client sends a string to the server using only signals
+- Server prints received messages instantly (no noticeable delay)
+- Server can handle multiple clients without restarting
+- No external communication methods (only signals allowed)
 
-# Features:
+# Bonus Features:
+- Server acknowledges each received message with a signal back to the client
+- Support for Unicode characters
 
-- Multi-client handling with non-blocking I/O and poll()
-- User authentication (nickname & username)
-- Private messaging and public channel communication
-- Channel operators with commands: KICK, INVITE, TOPIC, MODE
-- Basic channel modes: invite-only, topic restrictions, password, operators, user limits
-
-Run:
-`./ircserv <port> <password>`
+Run (example):
+`./server`
+`./client <server_pid> "Hello, world!"`

@@ -1,15 +1,18 @@
-# ft_irc – Internet Relay Chat Server
+# FDF – 3D Wireframe Landscape Viewer
+A C project focused on rendering a wireframe model of a 3D landscape. Using the MiniLibX library, the program reads a .fdf file containing points in space and visualizes the corresponding 3D terrain in isometric projection.
 
-A custom IRC server built in C++98, following the official IRC protocol.
-It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time.
+# Features (Mandatory):
+- Render 3D landscapes from .fdf files using isometric projection
+- Smooth window and image management via MiniLibX
+- Interactive: ESC or window close button quits cleanly
+- Reads data efficiently using libft functions like get_next_line() and ft_split()
+- No global variables allowed
+- Fully compliant with Norm and memory-leak-free
 
-# Features:
+# Bonus Features:
+- Implement additional projections (parallel, conic, etc.)
+- Zoom, translate, or rotate the model
+- Add custom graphics enhancements
 
-- Multi-client handling with non-blocking I/O and poll()
-- User authentication (nickname & username)
-- Private messaging and public channel communication
-- Channel operators with commands: KICK, INVITE, TOPIC, MODE
-- Basic channel modes: invite-only, topic restrictions, password, operators, user limits
-
-Run:
-`./ircserv <port> <password>`
+# Objective:
+Learn the basics of graphics programming, coordinate mapping, and 3D visualization. This project introduces fundamental concepts of rendering, projection, and interactive window management in C.
