@@ -1,0 +1,3 @@
+[submodule "03_cub3d"]
+	path = 03_cub3d
+	url = git@github.com:42mates/cub3D.git
