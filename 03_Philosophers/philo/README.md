@@ -1,15 +1,12 @@
-# ft_irc – Internet Relay Chat Server
-
-A custom IRC server built in C++98, following the official IRC protocol.
-It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time.
+# Philosophers – Dining Philosophers Problem
+A concurrency project that explores multithreading, synchronization, and resource sharing through the classic dining philosophers problem.
 
 # Features:
-
-- Multi-client handling with non-blocking I/O and poll()
-- User authentication (nickname & username)
-- Private messaging and public channel communication
-- Channel operators with commands: KICK, INVITE, TOPIC, MODE
-- Basic channel modes: invite-only, topic restrictions, password, operators, user limits
+- Each philosopher represented as a thread
+- Shared forks protected by mutexes
+- Simulation of eating, thinking, and sleeping cycles
+- Precise logging of philosopher states
+- Detection of starvation and simulation termination
 
 Run:
-`./ircserv <port> <password>`
+`./philo number_of_philosophers time_to_die time_to_eat time_to_sleep [must_eat_count]`

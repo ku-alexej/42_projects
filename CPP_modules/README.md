@@ -1,15 +1,14 @@
-# ft_irc – Internet Relay Chat Server
+# CPP Modules – C++ Fundamentals & OOP
+A series of projects designed to progressively introduce and strengthen key C++ concepts. Each module focuses on a specific topic, combining theory with practical exercises to build a solid foundation in modern C++ programming.
 
-A custom IRC server built in C++98, following the official IRC protocol.
-It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time.
-
-# Features:
-
-- Multi-client handling with non-blocking I/O and poll()
-- User authentication (nickname & username)
-- Private messaging and public channel communication
-- Channel operators with commands: KICK, INVITE, TOPIC, MODE
-- Basic channel modes: invite-only, topic restrictions, password, operators, user limits
-
-Run:
-`./ircserv <port> <password>`
+# Modules & Topics:
+- 00 – Namespaces, classes, member functions, I/O streams, init lists, static & const
+- 01 – Memory allocation, pointers to members, references, switch
+- 02 – Polymorphism, operator overloading, Orthodox Canonical Form
+- 03 – Inheritance
+- 04 – Abstract classes, interfaces, subtype polymorphism
+- 05 – Exceptions & error handling
+- 06 – C++ casts
+- 07 – Templates
+- 08 – Templated containers, iterators, algorithms
+- 09 – Standard Template Library (STL)

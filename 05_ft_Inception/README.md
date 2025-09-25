@@ -1,15 +1,21 @@
-# ft_irc – Internet Relay Chat Server
+# Inception – Dockerized Infrastructure
 
-A custom IRC server built in C++98, following the official IRC protocol.
-It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time.
+A system administration project focused on containerization with Docker Compose. The goal is to build and configure a complete infrastructure inside a virtual machine by writing your own Dockerfiles.
 
 # Features:
 
-- Multi-client handling with non-blocking I/O and poll()
-- User authentication (nickname & username)
-- Private messaging and public channel communication
-- Channel operators with commands: KICK, INVITE, TOPIC, MODE
-- Basic channel modes: invite-only, topic restrictions, password, operators, user limits
+- NGINX container with TLSv1.2/1.3 as the single entry point
+- WordPress container running with php-fpm (no NGINX inside)
+- MariaDB container with persistent storage
+- Volumes for WordPress files and database
+- Custom Docker network for inter-container communication
+- Environment variables and secrets for secure configuration
 
 Run:
-`./ircserv <port> <password>`
+`make`
+
+# Bonus options:
+- Redis cache for WordPress
+- FTP server
+- Adminer or other useful services
+- Custom static website
