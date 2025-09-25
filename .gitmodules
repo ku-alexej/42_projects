@@ -1,0 +1,9 @@
+[submodule "06_ft_transcendence"]
+	path = 06_ft_transcendence
+	url = git@github.com:kaierhyeh/ft_transcendence.git
+[submodule "04_cub3d"]
+	path = 04_cub3d
+	url = git@github.com:42mates/cub3D.git
+[submodule "03_minishell"]
+	path = 03_minishell
+	url = git@github.com:42mates/minishell.git
