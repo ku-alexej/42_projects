@@ -1,8 +1,10 @@
 # 42_projects
-Hi! I’m Aleksei, currently studying at 42 Paris since May 2023. This repository is meant to gather and showcase all the projects I’ve been working on during my time at 42.
+At 42 Paris, I completed the core curriculum and am currently pursuing an RNCP Level 7 certification with a focus on security.
+
+My solutions to the core curriculum projects are presented below.
 
 # Level 6
-- **[ft_transcendence](https://github.com/kaierhyeh/ft_transcendence/tree/4c3d398803bd8af5c2bc0964b2456259dca7cd35)** - a fullstack project. Create online Ping-Pong game. Currently in progress.
+- **[ft_transcendence](https://github.com/kaierhyeh/ft_transcendence)** - a fullstack project. Create online Ping-Pong game. Currently in progress.
 
 # Level 5
 - **[ft_irc](https://github.com/ku-alexej/42_projects/tree/main/05_ft_irc)** A custom IRC server built in C++98, following the official IRC protocol. It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time. *(group project with [@vecherinca](https://github.com/vecherinca))*
