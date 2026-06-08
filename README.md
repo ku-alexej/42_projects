@@ -4,7 +4,12 @@ At 42 Paris, I completed the core curriculum and am currently pursuing an RNCP L
 My solutions to the core curriculum projects are presented below.
 
 # Level 6
-- **[ft_transcendence](https://github.com/kaierhyeh/ft_transcendence)** - a fullstack project. Create online Ping-Pong game. Currently in progress.
+- **[ft_transcendence](https://github.com/kaierhyeh/ft_transcendence)** - a fullstack team project: develop a web game Pong including the following features:
+  - Basic user management systems for users to register, 2FA validate id, customize user settings.
+  - Live chat with other users and play games remotely with Websocket.
+  - Different game modes: PVE, local/remote PVP and tournament.
+  - Single Page Application (SPA) for better UX.
+  - Automated health test at launch time.
 
 # Level 5
 - **[ft_irc](https://github.com/ku-alexej/42_projects/tree/main/05_ft_irc)** A custom IRC server built in C++98, following the official IRC protocol. It allows multiple clients to connect via TCP/IP, authenticate, set nicknames, join channels, and exchange messages in real time. *(group project with [@vecherinca](https://github.com/vecherinca))*
