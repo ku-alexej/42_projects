@@ -7,3 +7,27 @@
 [submodule "03_minishell"]
 	path = 03_minishell
 	url = git@github.com:42mates/minishell.git
+[submodule "fundamentals/03_minishell"]
+	path = fundamentals/03_minishell
+	url = https://github.com/42mates/minishell
+[submodule "graphics/04_cub3d"]
+	path = graphics/04_cub3d
+	url = https://github.com/42mates/cub3D
+[submodule "web/06_transcendence"]
+	path = web/06_transcendence
+	url = https://github.com/kaierhyeh/ft_transcendence
+[submodule "web/06_ft_transcendence"]
+	path = web/06_ft_transcendence
+	url = https://github.com/kaierhyeh/ft_transcendence
+[submodule "security/override"]
+	path = security/override
+	url = https://github.com/42-mates/override
+[submodule "security/rainfall"]
+	path = security/rainfall
+	url = https://github.com/42-mates/rainfall
+[submodule "security/snow-crash"]
+	path = security/snow-crash
+	url = https://github.com/42-mates/snow-crash
+[submodule "security/darkly"]
+	path = security/darkly
+	url = https://github.com/42-mates/darkly
