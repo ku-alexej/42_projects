@@ -6,7 +6,7 @@ This repository contains systems programming, networking, full-stack, and securi
 # **RNCP-7 projects**
 
 ### 🔐 Security & Cybersecurity
-- **[arachnida](https://github.com/42-mates/arachnida)**  
+- **[arachnida](https://github.com/ku-alexej/42_projects/tree/main/security/arachnida)**  
 Two CLI tools built around web scraping and file metadata inspection. **Spider** crawls a target URL and downloads all images it finds, with optional recursive crawling across same-domain links up to a configurable depth. **Scorpion** reads image files and displays their embedded metadata — filesystem info, image properties, and raw EXIF tags. Written in Python, the project covers HTTP request handling, HTML parsing and recursive web crawling strategies.
 - **[override](https://github.com/42-mates/override)** *(teamwork with [@oprosvir](https://github.com/oprosvir))*  
 This project is a part of the cybersecurity curriculum at 42 School. The goal is to dive deep into binary exploitation, reverse engineering, and system security by solving a series of increasingly difficult Capture The Flag (CTF) challenges. Each level introduces core security concepts and exploitation techniques, progressing from simple vulnerability identification to complex attack chains. The objective is to discover a vulnerability, exploit it to gain the privileges of the next user, and read the flag/password to proceed to the next level.
